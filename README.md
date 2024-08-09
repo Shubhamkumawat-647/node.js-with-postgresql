@@ -26,6 +26,6 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Shubhamkumawat-647/node.js-with-postgresql/tree/project1
+   git clone https://github.com/Shubhamkumawat-647/node.js-with-postgresql.git
 
 start application for npm start
