@@ -3,9 +3,12 @@ const express = require('express');
 const { connectDB } = require('./config/database');
 const { initModels } = require('./model/');
 const userRoutes = require('./routes/userRoutes');
+const cors = require('cors');
+
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 const startServer = async () => {
   // Connect to the database
