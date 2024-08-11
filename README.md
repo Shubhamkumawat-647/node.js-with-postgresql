@@ -29,3 +29,9 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/Shubhamkumawat-647/node.js-with-postgresql.git
 
 start application for npm start
+
+for create user
+http://localhost:3000/users/create
+
+get user 
+http://localhost:3000/users/get
